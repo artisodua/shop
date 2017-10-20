@@ -11,8 +11,6 @@ require_relative "lib/product"
 require_relative "lib/movie"
 require_relative "lib/book"
 
-array = {price: nil, amount: nil}
-
 movie = Movie.new(price: 390, amount: 4)
 
 puts "Фильм Леон стоит #{movie.price} руб."
